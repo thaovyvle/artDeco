@@ -1,0 +1,396 @@
+/* Custom fonts used on the website */
+@font-face {
+    font-family: 'Park Lane';
+    src: url(Fonts/parkLane.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(Fonts/roboto.ttf);
+}
+
+/* Smooth scrolling, especially when clicking on different sections from nav bar */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Majority of the website will consist of this background color */
+body {
+    background-color: #000622;
+}
+
+/* Most of the headings will consist of these stylizations */
+h1,h2,h3,h4 {
+    color: #e3a944;
+    font-family: 'Park Lane';
+    font-size: 70px;
+    letter-spacing: 2px;
+    padding-bottom: 2px;
+}
+
+/* Most of the paragraph tags will consist of these stylizations */
+p {
+    font-family: "Roboto";
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 50px;
+    line-height: 22px;
+}
+
+/* The website logo on the navigation bar */
+img.logo {
+    display: block;
+    margin-left: 18px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 5%;
+    float: left;
+    position: relative;
+}
+
+/* Navigation Bar stylization */
+div.navBar { /* Fixed navigation bar at the top */
+    position: fixed; 
+    top: 0; 
+    overflow: hidden;
+    z-index: 1;
+    width: 100%; 
+    background-color: #000622;
+}
+
+nav { /* Whole navigation bar  */
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li { /* List items within the navigation bar */
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a { /* The text stylization for the items in nav bar */
+    color: white;
+    font-size: 14px;
+    font-family: "Semplicita";
+    letter-spacing: 2px;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* The large image on the home screen */
+img.featureImage {
+    width: 97%;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* "Explore" heading */
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000622;
+}
+
+/* Intro class with box stylization */
+div.intro {
+    width: auto;
+    height: 250px;
+    background-color: white;
+    padding-bottom: 350px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+/* The paragraph within the intro class */
+#introText {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 32px;
+}
+
+/* History class with box stylization */
+div.historyBox {
+    color: black;
+    width: auto;
+    height: 1300px;
+    padding-top: 50px;
+    background-color: #f7e2a8;
+}
+
+/* "History" heading */
+h2 {
+    text-align: center;
+    color: #02084f;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+
+/* History Image */
+img.historyPic {
+    width: 49.5%;
+    padding-left: 80px;
+    padding-right: 80px;
+    float: left;
+}
+
+/* Section 1 of History Info */
+p.historyInfo1 {
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 60px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+/* Description of the History Image */
+div.picDescription {
+    color: black;
+    float: left;
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+/* Section 2 of History Info */
+p.historyInfo2 {
+    text-align: justify;
+    padding-left: 85px;
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 140px;
+}
+
+/* Image of the Chrysler Building */
+img.chryslerBuilding {
+    width: 55%;
+    float: right;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 65px;
+    display: inline;
+}
+
+/* Description of the Chrysler Building Image */
+div.chryslerDescription {
+    color: black;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding-top: 80px;
+    padding-left: 905px;
+}
+
+/* "Gallery" heading */
+h3 {
+    padding-left: 80px;
+    margin-bottom: 5px;
+}
+
+/* Paragraph for the Gallery section */
+#galleryText {
+    color: white;
+    font-family: "Roboto";
+    padding-left: 80px;
+    font-size: 18px;
+}
+
+/* Stylization for each image in gallery */
+img.pic1 { /* Blue and White entryway with the blue door */
+    width: 15%;
+    padding-left: 5px;
+    position: relative; 
+    padding-right: 5px;
+}
+
+img.pic2, img.pic3 { /* Pic2: White and Gold entryway & Pic3: Interior Design Bar */
+    width: 15%;
+    padding-left: 5px;
+    display: block;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+img.pic4 { /* Girl in dress */
+    position: absolute;
+    width: 15%;
+}
+
+img.pic5 { /* Interior Design - Dining room with green, black, and gold */
+    float: right;
+    width: 21.8%;
+    padding-top: 425px;
+    padding-right: 95px;
+}
+
+img.pic11 { /* Chrysler building in NYC */
+    float: left;
+    display: block;
+    width: 28.2%;
+    padding-left: 5px;
+}
+
+img.pic6 { /* Pair of heels */
+    float: left;
+    display: block;
+    width: 15%;
+    position: relative;
+    padding-left: 5px;
+}
+
+img.pic10 { /* Black and Gold Building */
+    float: left;
+    display: block;
+    width: 35%;
+    position: absolute;
+    padding-right: 5px;
+    padding-top: 12px;
+    padding-left: 290px;
+}
+
+img.pic8 { /* Interior Design - Dining room with green, white, and gold */
+    width: 20%;
+    float: left;
+    display: block;
+    position: relative;
+    padding-bottom: 5px;
+    padding-left: 80px;
+}
+
+img.pic12 { /* Turqoise, blue, and gold entryway */
+    width: 19.8%;
+    float: left;
+    display: block;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+img.pic7 { /* Black and Gold entryway */
+    width: 20.1%;
+    float: left;
+    display: block;
+    position: absolute;
+    padding-top: 173px;
+    padding-right: 5px;
+    padding-left: 80px;
+}
+
+/* Film section */
+div.filmBox {
+    width: auto;
+    height: 770px;
+    padding-top: 2px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+/* "Films" heading */
+h4 { 
+    text-align: center;
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+
+/* Paragraph for the Film section*/ 
+#filmText {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+/* Colored box outside Film poster #1 */
+div.outerBox1 {
+    position: relative;
+    width: 350px;
+    height: 475px;
+    background-color: #000622;
+    margin-left: 100px;
+    padding-top: 20px;
+    border: 5px solid;
+    border-color: #e3a944;
+}
+
+/* Colored box outside Film poster #2 */
+div.outerBox2 {
+    position: relative;
+    width: 350px;
+    height: 475px;
+    background-color: #000622;
+    margin-left: 60px;
+    padding-top: 20px;
+    border: 5px solid;
+    border-color: #e3a944;
+}
+
+/*Colored box outside Film poster #3 */
+div.outerBox3 {
+    position: relative;
+    width: 350px;
+    height: 475px;
+    background-color: #000622;
+    margin-left: 25px;
+    padding-top: 20px;
+    border: 5px solid;
+    border-color: #e3a944;
+}
+
+/* Stylization for the film images */
+* {
+    box-sizing: border-box;
+}
+  
+div.column {
+    flex: 33.33%;
+    padding: 10px;
+}
+  
+div.row {
+    display: flex;
+}
+
+/* The Great Gatsby */
+img.film1 {
+    width: 85%;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+
+/* The Grand Budapest Hotel */
+img.film2 {
+    width: 107%;
+    padding-top: 2px;
+    padding-right: 95px;
+    margin-left: 35px;
+}
+
+/* Metropolis */
+img.film3 {
+    width: 82%;
+    padding-top: 2px;
+    margin-left: 32px;
+}
+
+/* Stylization for the film titles */
+div.filmTitle {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: "Roboto";
+    font-size: 16px;
+    letter-spacing: 1px;
+}
